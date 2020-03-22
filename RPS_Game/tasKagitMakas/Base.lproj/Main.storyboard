@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tasKagitMakas" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="-1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hdk-MK-bad">
+                                <rect key="frame" x="20" y="319" width="92" height="123"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="123" id="KdT-fz-GlM"/>
+                                </constraints>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="107" maxY="-145"/>
+                                <size key="titleShadowOffset" width="-1" height="0.0"/>
+                                <state key="normal" image="danger">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Rock">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="Avenir-Heavy"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <connections>
+                                    <action selector="tasButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FvF-CV-tl1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sg-1I-SaX">
+                                <rect key="frame" x="83" y="189.66666666666666" width="29" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="29" id="XIt-xN-fpO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Computer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0F1-wR-Nva">
+                                <rect key="frame" x="281.66666666666669" y="189.66666666666666" width="77" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nxc-VE-pdI">
+                                <rect key="frame" x="83" y="229.66666666666666" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VFn-Sx-N5e">
+                                <rect key="frame" x="314.66666666666669" y="229.66666666666666" width="11" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UQ6-Uw-Ekp">
+                                <rect key="frame" x="0.0" y="33.999999999999993" width="409.66666666666669" height="104.33333333333331"/>
+                                <color key="barTintColor" red="1" green="0.72156862745098038" blue="0.72156862745098038" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="Rock, Paper, Scissors" largeTitleDisplayMode="always" id="fNi-0g-uIj"/>
+                                </items>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your choice:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NMK-jd-JBZ">
+                                <rect key="frame" x="67.333333333333343" y="538.66666666666663" width="258.33333333333326" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Computer's choice:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHu-Zi-pal">
+                                <rect key="frame" x="67.333333333333343" y="576.66666666666663" width="258.33333333333326" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Winner:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CtF-Db-D1t">
+                                <rect key="frame" x="67.333333333333343" y="621.66666666666663" width="258.33333333333326" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="-1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wbm-WA-I5S">
+                                <rect key="frame" x="283" y="327" width="111" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="111" id="zIZ-Yo-AKY"/>
+                                </constraints>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="107" maxY="-145"/>
+                                <inset key="imageEdgeInsets" minX="18" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <size key="titleShadowOffset" width="-1" height="0.0"/>
+                                <state key="normal" image="scissors">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="   Scissors">
+                                            <attributes>
+                                                <font key="NSFont" size="18.300000000000001" name="Avenir-Heavy"/>
+                                                <real key="NSKern" value="0.0"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                    <tabStops/>
+                                                </paragraphStyle>
+                                                <color key="NSStrokeColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <connections>
+                                    <action selector="makasButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1RU-wK-a0T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="-1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dTu-pm-1VQ">
+                                <rect key="frame" x="136" y="329" width="121" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="rcR-SK-ObK"/>
+                                </constraints>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="124" maxY="-145"/>
+                                <size key="titleShadowOffset" width="-1" height="0.0"/>
+                                <state key="normal" image="paper-plane">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Paper">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <font key="NSFont" size="18" name="Avenir-Heavy"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineHeightMultiple="1" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                </state>
+                                <connections>
+                                    <action selector="kagitButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NCt-dq-YqS"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="UQ6-Uw-Ekp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-10" id="0ji-U2-v3k"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CtF-Db-D1t" secondAttribute="bottom" constant="220.00000000000011" id="2S8-3F-Qt9"/>
+                            <constraint firstItem="dTu-pm-1VQ" firstAttribute="centerY" secondItem="Wbm-WA-I5S" secondAttribute="centerY" id="6Ll-CQ-HvY"/>
+                            <constraint firstItem="hdk-MK-bad" firstAttribute="top" secondItem="nxc-VE-pdI" secondAttribute="bottom" constant="68.333333333333343" id="7Ux-Kv-bCu"/>
+                            <constraint firstItem="NMK-jd-JBZ" firstAttribute="trailing" secondItem="fHu-Zi-pal" secondAttribute="trailing" id="A7E-RE-DQB"/>
+                            <constraint firstItem="NMK-jd-JBZ" firstAttribute="leading" secondItem="fHu-Zi-pal" secondAttribute="leading" id="AgS-yn-NNR"/>
+                            <constraint firstItem="4sg-1I-SaX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="E5B-8V-Mhe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UQ6-Uw-Ekp" secondAttribute="trailing" constant="4.3333333333333144" id="EDY-9D-mY0"/>
+                            <constraint firstItem="4sg-1I-SaX" firstAttribute="trailing" secondItem="hdk-MK-bad" secondAttribute="trailing" id="F8P-XD-hvb"/>
+                            <constraint firstItem="dTu-pm-1VQ" firstAttribute="centerX" secondItem="NMK-jd-JBZ" secondAttribute="centerX" id="HWC-E5-P4a"/>
+                            <constraint firstItem="NMK-jd-JBZ" firstAttribute="top" secondItem="dTu-pm-1VQ" secondAttribute="bottom" constant="89.666666666666629" id="I0F-zC-q9f"/>
+                            <constraint firstItem="Wbm-WA-I5S" firstAttribute="top" secondItem="VFn-Sx-N5e" secondAttribute="bottom" constant="76.333333333333343" id="IrB-b0-HpE"/>
+                            <constraint firstItem="fHu-Zi-pal" firstAttribute="top" secondItem="NMK-jd-JBZ" secondAttribute="bottom" constant="17" id="Ldk-dK-S7Y"/>
+                            <constraint firstItem="CtF-Db-D1t" firstAttribute="top" secondItem="fHu-Zi-pal" secondAttribute="bottom" constant="23.999999999999886" id="MM3-4a-S9P"/>
+                            <constraint firstItem="nxc-VE-pdI" firstAttribute="top" secondItem="4sg-1I-SaX" secondAttribute="bottom" constant="19" id="OhI-g6-9rc"/>
+                            <constraint firstItem="nxc-VE-pdI" firstAttribute="baseline" secondItem="VFn-Sx-N5e" secondAttribute="baseline" id="OmV-FY-nJh"/>
+                            <constraint firstItem="0F1-wR-Nva" firstAttribute="centerX" secondItem="VFn-Sx-N5e" secondAttribute="centerX" id="Pfb-3K-VFg"/>
+                            <constraint firstItem="hdk-MK-bad" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="QQB-we-43j"/>
+                            <constraint firstItem="Wbm-WA-I5S" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="UPT-Gh-3bh"/>
+                            <constraint firstItem="fHu-Zi-pal" firstAttribute="trailing" secondItem="CtF-Db-D1t" secondAttribute="trailing" id="YeG-0V-8Qf"/>
+                            <constraint firstItem="fHu-Zi-pal" firstAttribute="leading" secondItem="CtF-Db-D1t" secondAttribute="leading" id="YoG-bY-nXA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VFn-Sx-N5e" secondAttribute="trailing" constant="88.333333333333314" id="ZmZ-mS-pUB"/>
+                            <constraint firstItem="4sg-1I-SaX" firstAttribute="leading" secondItem="nxc-VE-pdI" secondAttribute="leading" id="bzf-nw-rpb"/>
+                            <constraint firstItem="NMK-jd-JBZ" firstAttribute="top" secondItem="hdk-MK-bad" secondAttribute="bottom" constant="96.666666666666629" id="fMi-cC-7ej"/>
+                            <constraint firstItem="VFn-Sx-N5e" firstAttribute="trailing" secondItem="NMK-jd-JBZ" secondAttribute="trailing" id="fdF-qg-TwJ"/>
+                            <constraint firstItem="Wbm-WA-I5S" firstAttribute="leading" secondItem="dTu-pm-1VQ" secondAttribute="trailing" constant="26" id="hg9-aA-zzk"/>
+                            <constraint firstItem="4sg-1I-SaX" firstAttribute="baseline" secondItem="0F1-wR-Nva" secondAttribute="baseline" id="iyG-N8-rPN"/>
+                            <constraint firstItem="UQ6-Uw-Ekp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sHx-NB-2ob"/>
+                            <constraint firstItem="dTu-pm-1VQ" firstAttribute="leading" secondItem="hdk-MK-bad" secondAttribute="trailing" constant="24" id="wOV-Hv-0GK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="compScoreLabel" destination="VFn-Sx-N5e" id="ase-yn-LHZ"/>
+                        <outlet property="randomChoiceLabel" destination="fHu-Zi-pal" id="qUy-77-c77"/>
+                        <outlet property="userChoiceLabel" destination="NMK-jd-JBZ" id="5uc-YZ-gR3"/>
+                        <outlet property="userScoreLabel" destination="nxc-VE-pdI" id="HKd-sp-1xU"/>
+                        <outlet property="winnerLabel" destination="CtF-Db-D1t" id="HYF-N9-L51"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="danger" width="256" height="256"/>
+        <image name="paper-plane" width="256" height="256"/>
+        <image name="scissors" width="256" height="256"/>
+    </resources>
+</document>
