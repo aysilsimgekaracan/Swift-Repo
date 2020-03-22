@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Stopwatch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 : 0 : 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWa-3k-hPL">
+                                <rect key="frame" x="20" y="142" width="374" height="122"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="41"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hcr-Sy-jNB">
+                                <rect key="frame" x="216" y="342" width="178" height="60"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zR5-2q-mcj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Lv-oQ-jrW">
+                                <rect key="frame" x="20" y="342" width="176" height="60"/>
+                                <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="176" id="YqR-Wc-cuT"/>
+                                    <constraint firstAttribute="height" constant="60" id="tOW-if-UE5"/>
+                                </constraints>
+                                <state key="normal" title="Stop">
+                                    <color key="titleColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="StopButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L7i-GO-MCL"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nRs-O8-QLv">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="4LP-Qm-kB4"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem title="Stopwatch" largeTitleDisplayMode="always" id="xhJ-Kg-iyO"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vh2-GX-dqI">
+                                <rect key="frame" x="123" y="410" width="168" height="60"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="bfN-uC-2h6"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wBT-vC-f7k"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="nRs-O8-QLv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4hy-mp-OdP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Vh2-GX-dqI" secondAttribute="bottom" constant="392" id="6Lt-dD-FCw"/>
+                            <constraint firstItem="Hcr-Sy-jNB" firstAttribute="leading" secondItem="3Lv-oQ-jrW" secondAttribute="trailing" constant="20" id="9Xj-xi-aTC"/>
+                            <constraint firstItem="nRs-O8-QLv" firstAttribute="centerX" secondItem="PWa-3k-hPL" secondAttribute="centerX" id="Aw8-pr-EXZ"/>
+                            <constraint firstItem="PWa-3k-hPL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Dcu-ok-SXM"/>
+                            <constraint firstItem="Vh2-GX-dqI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="123" id="MQz-oT-z58"/>
+                            <constraint firstItem="3Lv-oQ-jrW" firstAttribute="top" secondItem="PWa-3k-hPL" secondAttribute="bottom" constant="78" id="Naw-Ji-Xyz"/>
+                            <constraint firstItem="PWa-3k-hPL" firstAttribute="leading" secondItem="3Lv-oQ-jrW" secondAttribute="leading" id="aOD-Eu-eL2"/>
+                            <constraint firstItem="3Lv-oQ-jrW" firstAttribute="top" secondItem="Hcr-Sy-jNB" secondAttribute="top" id="cIK-6F-lzq"/>
+                            <constraint firstItem="3Lv-oQ-jrW" firstAttribute="baseline" secondItem="Hcr-Sy-jNB" secondAttribute="firstBaseline" id="fdJ-MJ-ScT"/>
+                            <constraint firstItem="PWa-3k-hPL" firstAttribute="centerX" secondItem="Vh2-GX-dqI" secondAttribute="centerX" id="h2d-PB-gLr"/>
+                            <constraint firstItem="PWa-3k-hPL" firstAttribute="trailing" secondItem="Hcr-Sy-jNB" secondAttribute="trailing" id="qIj-rv-kuQ"/>
+                            <constraint firstItem="PWa-3k-hPL" firstAttribute="top" secondItem="nRs-O8-QLv" secondAttribute="bottom" constant="54" id="rKv-15-0Le"/>
+                            <constraint firstItem="PWa-3k-hPL" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rU3-4Q-WFL"/>
+                            <constraint firstItem="nRs-O8-QLv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="wdB-ig-45S"/>
+                            <constraint firstItem="Vh2-GX-dqI" firstAttribute="top" secondItem="3Lv-oQ-jrW" secondAttribute="bottom" constant="8" id="yAt-t4-wWD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="timeLabel" destination="PWa-3k-hPL" id="edp-g7-HK7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
