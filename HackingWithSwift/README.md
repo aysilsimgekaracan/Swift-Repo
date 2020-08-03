@@ -3,8 +3,9 @@
   This is a file that contains all of my Hacking With Swift projects which include all challenges and extras.
 
 ## Project 1 - Storm Viewer
-<img align="right" src="https://user-images.githubusercontent.com/43148881/89198260-a3ac5b00-d5b5-11ea-8b07-a9e9214972c8.png" width=96>
-![Simulator Screen Shot - iPhone 11 Pro Max - 2020-08-03 at 18 17 35](https://user-images.githubusercontent.com/43148881/89198260-a3ac5b00-d5b5-11ea-8b07-a9e9214972c8.png)
+
+<img align="left" src="https://user-images.githubusercontent.com/43148881/89198260-a3ac5b00-d5b5-11ea-8b07-a9e9214972c8.png" width=%50>
+
 ![Simulator Screen Shot - iPhone 11 Pro Max - 2020-08-03 at 18 18 38](https://user-images.githubusercontent.com/43148881/89198568-11f11d80-d5b6-11ea-9b5d-447d4628e00d.png)
 
 ## Project 2 - Guess The Flag
