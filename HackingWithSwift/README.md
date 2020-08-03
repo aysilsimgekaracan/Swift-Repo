@@ -8,10 +8,10 @@
 
 <div class="row">
   <div class="column">
-    <img align="left" src="https://user-images.githubusercontent.com/43148881/89198260-a3ac5b00-d5b5-11ea-8b07-a9e9214972c8.png" width=500>
+    <img src="https://user-images.githubusercontent.com/43148881/89198260-a3ac5b00-d5b5-11ea-8b07-a9e9214972c8.png" width=500>
   </div>
   <div class="column">
-    <img align="right" src="https://user-images.githubusercontent.com/43148881/89198568-11f11d80-d5b6-11ea-9b5d-447d4628e00d.png" width=500>
+    <img src="https://user-images.githubusercontent.com/43148881/89198568-11f11d80-d5b6-11ea-9b5d-447d4628e00d.png" width=500>
   </div>
 </div>
 
