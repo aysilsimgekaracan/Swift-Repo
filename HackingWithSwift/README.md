@@ -8,12 +8,13 @@
 
 <img align="left" src="https://user-images.githubusercontent.com/43148881/89198260-a3ac5b00-d5b5-11ea-8b07-a9e9214972c8.png" width=50%>
 <img align="right" src="https://user-images.githubusercontent.com/43148881/89198568-11f11d80-d5b6-11ea-9b5d-447d4628e00d.png" width=50%>
-
+<br/>
 
 
 ## Project 2 - Guess The Flag
 <img align="left" src="https://user-images.githubusercontent.com/43148881/89198792-609eb780-d5b6-11ea-8fcc-6060d95c29bd.png" width=50%>
 <img align="right" src="https://user-images.githubusercontent.com/43148881/89199052-b5dac900-d5b6-11ea-801f-33ee3e71a697.png" width=50%>
+<br/>
 
 
 ## Project 3 - Social Media (Milestone Project 1-3)
