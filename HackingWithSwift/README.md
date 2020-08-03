@@ -19,8 +19,7 @@
 <br/>
 
 ## Project 2 - Guess The Flag
-<img align="left" src="https://user-images.githubusercontent.com/43148881/89198792-609eb780-d5b6-11ea-8fcc-6060d95c29bd.png" width=50%>
-<img align="right" src="https://user-images.githubusercontent.com/43148881/89199052-b5dac900-d5b6-11ea-801f-33ee3e71a697.png" width=50%>
+<img align="left" src="https://user-images.githubusercontent.com/43148881/89198792-609eb780-d5b6-11ea-8fcc-6060d95c29bd.png" width=50%> <img align="right" src="https://user-images.githubusercontent.com/43148881/89199052-b5dac900-d5b6-11ea-801f-33ee3e71a697.png" width=50%>
 <br/>
 <br/>
 <br/>
