@@ -2,7 +2,7 @@
 
   This is a file that contains all of my Hacking With Swift projects which include all challenges and extras.
   
-  <img align="left" src="" width=50%>
+ 
 
 ## Project 1 - Storm Viewer
 
@@ -25,3 +25,7 @@
 ## Project 5 - Word Scramble
 ![Simulator Screen Shot - iPhone 11 Pro Max - 2020-08-03 at 18 30 47](https://user-images.githubusercontent.com/43148881/89199615-78c30680-d5b7-11ea-8d64-5fa14921e451.png)
 ![Simulator Screen Shot - iPhone 11 Pro Max - 2020-08-03 at 18 31 49](https://user-images.githubusercontent.com/43148881/89199696-9bedb600-d5b7-11ea-933c-1ce8de57dce2.png)
+
+
+
+ <img align="left" src="" width=50%>
