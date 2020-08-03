@@ -6,6 +6,11 @@
 
 ## Project 1 - Storm Viewer
 
+<p float="middle">
+  <img src="https://user-images.githubusercontent.com/43148881/89198260-a3ac5b00-d5b5-11ea-8b07-a9e9214972c8.png" alt = "1" width=400>
+  <img src="https://user-images.githubusercontent.com/43148881/89198568-11f11d80-d5b6-11ea-9b5d-447d4628e00d.png" alt = "2" width=400>
+</p>
+
 <div class="row">
   <div class="column">
     <img src="https://user-images.githubusercontent.com/43148881/89198260-a3ac5b00-d5b5-11ea-8b07-a9e9214972c8.png" alt = "1" width=400>
