@@ -11,38 +11,19 @@
   <img src="https://user-images.githubusercontent.com/43148881/89198568-11f11d80-d5b6-11ea-9b5d-447d4628e00d.png" alt = "2" width=400>
 </p>
 
-<div class="row">
-  <div class="column">
-    <img src="https://user-images.githubusercontent.com/43148881/89198260-a3ac5b00-d5b5-11ea-8b07-a9e9214972c8.png" alt = "1" width=400>
-  </div>
-  <div class="column">
-    <img src="https://user-images.githubusercontent.com/43148881/89198568-11f11d80-d5b6-11ea-9b5d-447d4628e00d.png" alt = "2" width=400>
-  </div>
-</div>
-
 
 ## Project 2 - Guess The Flag
-<div class="row">
-  <div class="column">
-    <img src="https://user-images.githubusercontent.com/43148881/89198792-609eb780-d5b6-11ea-8fcc-6060d95c29bd.png" alt = "1" width=400>
-  </div>
-  <div class="column">
-    <img src="https://user-images.githubusercontent.com/43148881/89199052-b5dac900-d5b6-11ea-801f-33ee3e71a697.png" alt = "2" width=400>
-  </div>
-</div>
+<p float="middle">
+  <img src="https://user-images.githubusercontent.com/43148881/89198792-609eb780-d5b6-11ea-8fcc-6060d95c29bd.png" alt = "1" width=400>
+  <img src="https://user-images.githubusercontent.com/43148881/89199052-b5dac900-d5b6-11ea-801f-33ee3e71a697.png" alt = "2" width=400>
+</p>
 
 ## Project 3 - Social Media (Milestone Project 1-3)
-<div class="row">
-  <div class="column">
-    <img src="https://user-images.githubusercontent.com/43148881/89199208-e7ec2b00-d5b6-11ea-97d1-52b2a9f86207.png" alt = "1" width=300>
-  </div>
-  <div class="column">
-    <img src="https://user-images.githubusercontent.com/43148881/89199250-f6d2dd80-d5b6-11ea-803e-4095bfaed5ee.png" alt = "2" width=300>
-  </div>
-  <div class="column">
-    <img src="https://user-images.githubusercontent.com/43148881/89199281-018d7280-d5b7-11ea-907c-3bcf3ea7b98b.png" alt = "2" width=300>
-  </div>
-</div>
+<p float="middle">
+  <img src="https://user-images.githubusercontent.com/43148881/89199208-e7ec2b00-d5b6-11ea-97d1-52b2a9f86207.png" alt = "1" width=300>
+  <img src="https://user-images.githubusercontent.com/43148881/89199250-f6d2dd80-d5b6-11ea-803e-4095bfaed5ee.png" alt = "2" width=300>
+  <img src="https://user-images.githubusercontent.com/43148881/89199281-018d7280-d5b7-11ea-907c-3bcf3ea7b98b.png" alt = "2" width=300>
+</p>
 
 ## Project 4 - Easy Browser
 <div class="row">
