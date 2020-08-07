@@ -37,3 +37,9 @@
   <img src="https://user-images.githubusercontent.com/43148881/89199615-78c30680-d5b7-11ea-8d64-5fa14921e451.png" alt = "1" width=300>
   <img src="https://user-images.githubusercontent.com/43148881/89199696-9bedb600-d5b7-11ea-933c-1ce8de57dce2.png" alt = "2" width=300>
 </p>
+
+## Project 6(b) - Auto Layout
+<p float="middle"> 
+  <img src="https://user-images.githubusercontent.com/43148881/89526853-0c334c00-d7f1-11ea-8053-74920fd53560.png" alt = "1" width=300>
+</p>
+
