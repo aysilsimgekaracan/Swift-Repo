@@ -43,3 +43,10 @@
   <img src="https://user-images.githubusercontent.com/43148881/89526853-0c334c00-d7f1-11ea-8053-74920fd53560.png" alt = "1" width=300>
 </p>
 
+## Shopping List - Milestone: Projects 4-6
+<p float="middle"> 
+  <img src="https://user-images.githubusercontent.com/43148881/89634564-47e01b80-d8ae-11ea-9ca1-d29643c2dbb3.png" alt = "1" width=300>
+  <img src="https://user-images.githubusercontent.com/43148881/89634661-6a723480-d8ae-11ea-8649-e65efac79da9.png" alt = "1" width=300>
+  <img src="https://user-images.githubusercontent.com/43148881/89634667-6c3bf800-d8ae-11ea-9eaf-fcf8b6b379dc.png" alt = "2" width=300>
+</p>
+
