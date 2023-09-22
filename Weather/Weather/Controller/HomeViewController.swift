@@ -11,10 +11,14 @@ class HomeViewController: UIViewController {
 
      // MARK: - Properties
     private let backgroundImageView = UIImageView()
+    private let mainStackView = UIStackView()
     private let searchStackView = UIStackView()
     private let locationButton = UIButton(type: .system)
     private let searchButton = UIButton(type: .system)
     private let searchTextField = UITextField()
+    private let statusImageView = UIImageView()
+    private let temperatureLabel = UILabel()
+    private let cityLabel = UILabel()
     
     // MARK: - Lifecycle
     override func viewDidLoad() {
@@ -64,14 +68,40 @@ extension HomeViewController {
         searchStackView.spacing = 8
         searchStackView.axis = .horizontal
         
+        //mainStackView style
+        mainStackView.translatesAutoresizingMaskIntoConstraints = false
+        mainStackView.spacing = 10
+        mainStackView.axis = .vertical
+        mainStackView.alignment = .trailing
+        
+        //statusImageView style
+        statusImageView.translatesAutoresizingMaskIntoConstraints = false
+        statusImageView.image = UIImage(systemName: "sun.max")
+        statusImageView.tintColor = .label
+        
+        //temperatureLabel style
+        temperatureLabel.translatesAutoresizingMaskIntoConstraints = false
+        temperatureLabel.font = UIFont.systemFont(ofSize: 80)
+        temperatureLabel.text = "15C"
+        
+        //cityLabel style
+        cityLabel.translatesAutoresizingMaskIntoConstraints = false
+        cityLabel.font = .preferredFont(forTextStyle: .largeTitle)
+        cityLabel.text = "Ankara"
+        
     }
     
     private func layout() {
         view.addSubview(backgroundImageView)
-        view.addSubview(searchStackView)
+        view.addSubview(mainStackView)
+        
+        mainStackView.addArrangedSubview(searchStackView)
         searchStackView.addArrangedSubview(locationButton)
         searchStackView.addArrangedSubview(searchTextField)
         searchStackView.addArrangedSubview(searchButton)
+        mainStackView.addArrangedSubview(statusImageView)
+        mainStackView.addArrangedSubview(temperatureLabel)
+        mainStackView.addArrangedSubview(cityLabel)
         
         NSLayoutConstraint.activate([ // This line activates an array of constraints
             
@@ -81,10 +111,13 @@ extension HomeViewController {
             view.trailingAnchor.constraint(equalTo: backgroundImageView.trailingAnchor),
             view.bottomAnchor.constraint(equalTo: backgroundImageView.bottomAnchor),
             
+            //mainStackView layout
+            mainStackView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 8),
+            mainStackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 8),
+            view.trailingAnchor.constraint(equalTo: mainStackView.trailingAnchor, constant: 8),
+            
             //searchStackView layout
-            searchStackView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 8),
-            searchStackView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 8),
-            view.trailingAnchor.constraint(equalTo: searchStackView.trailingAnchor, constant: 8),
+            searchStackView.widthAnchor.constraint(equalTo: mainStackView.widthAnchor),
             
             // locationButton layout
             locationButton.heightAnchor.constraint(equalToConstant: 40),
@@ -93,6 +126,10 @@ extension HomeViewController {
             // searchButton layout
             searchButton.heightAnchor.constraint(equalToConstant: 40),
             searchButton.widthAnchor.constraint(equalToConstant: 40),
+            
+            //statusImageView layout
+            statusImageView.heightAnchor.constraint(equalToConstant: 85),
+            statusImageView.widthAnchor.constraint(equalToConstant: 85)
             
         ])
     }
