@@ -8,5 +8,7 @@
 import UIKit
 
 class FlightsViewController: UIViewController {
-  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+  }
 }

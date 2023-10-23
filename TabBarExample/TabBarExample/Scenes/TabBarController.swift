@@ -11,21 +11,23 @@ class TabBarController: UITabBarController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    let homeViewController = HomeViewController()
-    homeViewController.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "home"), tag: 0)
+    let homeStoryboard = UIStoryboard(name: "HomeView", bundle: nil)
+    let homeViewController = homeStoryboard.instantiateViewController(withIdentifier: "Home")
+    homeViewController.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"), tag: 0)
     
-    let discoverViewController = DiscoverViewController()
+    let discoverStoryboard = UIStoryboard(name: "DiscoverView", bundle: nil)
+    let discoverViewController = discoverStoryboard.instantiateViewController(withIdentifier: "Discover")
     discoverViewController.tabBarItem = UITabBarItem(title: "Discover", image: UIImage(systemName: "globe"), tag: 1)
     
-    let flightsViewController = FlightsViewController()
+    let flightsStoryboard = UIStoryboard(name: "FlightsView", bundle: nil)
+    let flightsViewController = flightsStoryboard.instantiateViewController(withIdentifier: "Flights")
     flightsViewController.tabBarItem = UITabBarItem(title: "Flights", image: UIImage(systemName: "airplane"), tag: 2)
     
-    let mapViewController = MapViewController()
+    
+    let mapStoryboard = UIStoryboard(name: "MapView", bundle: nil)
+    let mapViewController = mapStoryboard.instantiateViewController(withIdentifier: "Map")
     mapViewController.tabBarItem = UITabBarItem(title: "Map", image: UIImage(systemName: "map"), tag: 3)
     
-    
     viewControllers = [homeViewController, discoverViewController, flightsViewController, mapViewController]
-    
-    
   }
 }
